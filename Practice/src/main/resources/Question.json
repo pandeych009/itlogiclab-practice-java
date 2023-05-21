@@ -1,0 +1,19 @@
+{
+  "question" : "What is Escape velocity",
+  "level" : "Simple",
+  "subject" : {
+    "subjectName" : "Physics",
+    "topic" : {
+      "topicName" : "Single Choice"
+    }
+  },
+  "answers" : [ {
+    "answer" : "4.8 km/s"
+  }, {
+    "answer" : "11.2 km/s"
+  }, {
+    "answer" : "9.8 km/s"
+  }, {
+    "answer" : "5 km/s"
+  } ]
+}

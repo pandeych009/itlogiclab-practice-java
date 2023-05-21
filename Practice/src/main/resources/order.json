@@ -1,0 +1,13 @@
+  {
+    "orderDate": "20211210\r\n",
+    "orderTime": "0835",
+    "deliveryAddress": {
+      "line1": "2 Gatehall Dr",
+      "line2": "Third Floor",
+      "city": "Parsippany",
+      "state": "NJ",
+      "pinCode":"07054",
+      "country": "United States"
+    },
+    "status": "INQUEUE"
+  }

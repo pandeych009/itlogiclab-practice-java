@@ -1,0 +1,32 @@
+{
+  "billId" : 0,
+  "customerId" : 1,
+  "invoiceNo" : "INV_1142",
+  "billAmount" : 2445.0,
+  "date" : "23//10//2022 14:25:45.222",
+  "orderId" : 2,
+  "amount" : 122,
+  "status" : "P",
+  "billInfoList" : [ {
+    "billInfoId" : 0,
+    "invoiceNo" : "INV_1142_1",
+    "chargeName" : "MAC",
+    "chargeCost" : 125000.00
+  },
+  {
+    "billInfoId" : 0,
+    "invoiceNo" : "INV_1142",
+    "chargeName" : "Apple Watch",
+    "chargeCost" : 42000.00
+  },{
+    "billInfoId" : 0,
+    "invoiceNo" : "INV_1142",
+    "chargeName" : "AIRPOD-2nd GEN",
+    "chargeCost" : 25000.00
+  },{
+    "billInfoId" : 0,
+    "invoiceNo" : "INV_1142",
+    "chargeName" : "IPHONE-12",
+    "chargeCost" : 148000.00
+  } ]
+}

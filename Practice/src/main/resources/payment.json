@@ -1,0 +1,12 @@
+{
+  "id" : 0,
+  "billId" : 4,
+  "amount" : 2354,
+  "status" : "PENDING",
+  "type" : "CC",
+  "txnModal" : {
+    "txnId" : 809828,
+    "txnRef" : "0000000RFRFRFR00001",
+    "transactionId" : 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "orderId" : 0,
+  "orderDate" : "15/07/2022",
+  "orderTime" : "10:54:13",
+  "deliveryAddress": {
+	  "line1": "2 Gatehall Dr",
+	  "line2": "Third Floor",
+	  "city": "Parsippany",
+	  "state": "NJ",
+	  "pinCode":"07054",
+	  "country": "United States"
+	},
+  "orderStatus" : "NEW",
+  "billId" : 0,
+  "customerId" : 11,
+  "invoiceNo" : "INV_KAFKA_1",
+  "billDate" : "15/07/2022",
+  "amount" : 1550,
+  "status" : "NEW",
+  "items" : [ {
+    "itemId" : 0,
+    "invoiceNo" : 2016,
+    "itemName" : "Apple IPAD",
+    "itemCost" : 1220.0
+  }, {
+    "itemId" : 0,
+    "invoiceNo" : 2016,
+    "itemName" : "IFB Machine",
+    "itemCost" : 4352.0
+  } ]
+}
