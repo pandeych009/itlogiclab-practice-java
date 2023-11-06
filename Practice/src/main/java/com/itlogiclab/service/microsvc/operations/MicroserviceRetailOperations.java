@@ -1,4 +1,4 @@
-package com.itlogiclab.service.microsvc.tests;
+package com.itlogiclab.service.microsvc.operations;
 
 import java.util.Map;
 

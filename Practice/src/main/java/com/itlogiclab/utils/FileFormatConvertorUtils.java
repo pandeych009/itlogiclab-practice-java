@@ -25,18 +25,6 @@ public class FileFormatConvertorUtils<T> {
 	}
 
 
-	
-	//	public static void main(String[] args) {
-	//		CreateCustomerRequest request = new CreateCustomerRequest();
-	//		request.setCustomer(new Customer("Chandan", new Address("line 1", "line 2", "City", "State", "In")));
-	//		try {
-	//			CustomerService service = new CustomerService();
-	//			service.getJSON(request);
-	//		} catch (JsonProcessingException e) {
-	//			e.printStackTrace();
-	//		}
-	//	}
-
 
 	public static String prettyPrintJSON(String ugly) {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();

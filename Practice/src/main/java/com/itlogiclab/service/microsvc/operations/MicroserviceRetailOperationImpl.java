@@ -1,4 +1,4 @@
-package com.itlogiclab.service.microsvc.tests;
+package com.itlogiclab.service.microsvc.operations;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,6 +7,7 @@ import java.util.Objects;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.itlogiclab.utils.FileFormatConvertorUtils;
 import com.itlogiclab.utils.PracticeUtils;
@@ -37,10 +38,9 @@ public class MicroserviceRetailOperationImpl implements MicroserviceRetailOperat
 		logger.info("URL: "+URL);
 		try {
 			String payload = PracticeUtils.readDataFromSource(new FileInputStream(new File(ORDER_REQ_PATH)));
-			Map<String, Object> response = PracticeUtils.sendPostRequest(URL, payload, CONTENT_TYPE_JSON, "PUT");
+			Map<String, Object> response = PracticeUtils.sendPostRequest(URL, payload, CONTENT_TYPE_JSON, RequestMethod.PUT.toString());
 			return response;
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			logger.error("Error occured while reading data: "+e.getMessage());
 		}
 		return null;
